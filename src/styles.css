@@ -1,0 +1,17 @@
+:root { font-family: system-ui, sans-serif; color: #1f2a44; background: #f4f6fa; }
+main { max-width: 480px; margin: 48px auto; padding: 0 16px; }
+.card { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 2px 12px rgba(31, 42, 68, 0.08); display: flex; flex-direction: column; gap: 12px; }
+header { display: flex; justify-content: space-between; align-items: center; }
+h1 { font-size: 22px; margin: 0; }
+input:not([type='checkbox']) { padding: 10px 12px; border: 1px solid #d6dbe6; border-radius: 6px; font-size: 15px; flex: 1; }
+button { padding: 10px 16px; border: 0; border-radius: 6px; background: #0092ff; color: #fff; font-size: 15px; cursor: pointer; }
+button:disabled { opacity: 0.6; }
+button.link { background: none; color: #0092ff; padding: 4px; }
+.row { display: flex; gap: 8px; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #eef1f6; }
+li.done label { text-decoration: line-through; color: #8a93a6; }
+label { display: flex; gap: 10px; align-items: center; }
+.error { color: #d93025; margin: 0; }
+.muted { color: #8a93a6; }
+.footer { text-align: center; font-size: 13px; }
