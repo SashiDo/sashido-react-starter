@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sashido": {
+      "type": "http",
+      "url": "https://mcp.sashido.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SASHIDO_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
